@@ -1,3 +1,4 @@
-# buildspace 
+# Twitter Thread AI Generator - AI Writing Assistant
 ### Welcome 👋
-This is the starter template for the [build your own AI writing assistant w/ GPT-3](https://buildspace.so/builds/ai-writer) project.
+
+<img width="755" alt="Screen Shot 2022-11-27 at 11 23 04 AM" src="https://user-images.githubusercontent.com/9670009/204156000-8ade9316-cd0f-44fb-a5a6-17190b647445.png">
