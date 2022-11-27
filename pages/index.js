@@ -41,7 +41,8 @@ const Home = () => {
           <div className="header-subtitle">
             <h2>
               Write a quick sentence about what you want the tweet thread to be
-              about (ex. Apple stock, Ethereum vs Solana NFTs, etc)
+              about (ex. Apple stock, Ethereum vs Solana NFTs, how to start your
+              morning right, etc)
             </h2>
           </div>
         </div>
