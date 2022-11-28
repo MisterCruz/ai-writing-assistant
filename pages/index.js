@@ -86,7 +86,7 @@ const Home = () => {
                 href="https://github.com/MisterCruz"
                 style={{ color: "inherit" }}
               >
-                Rolando 🍵
+                Rolando
               </a>
             </h1>
           </div>
