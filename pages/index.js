@@ -31,12 +31,12 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>AI Writing Assistant</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate a blog post/story about any topic</h1>
+            <h1>Generate a blog post/story about any topic 🪄</h1>
           </div>
           <div className="header-subtitle">
             <h2>
@@ -81,9 +81,9 @@ const Home = () => {
         <div className="header">
           <div className="header-subtitle">
             <h1>
-              Made by{" "}
+              Made with ❤️ by{" "}
               <a
-                //href="https://github.com/MisterCruz"
+                href="https://github.com/MisterCruz"
                 style={{ color: "inherit" }}
               >
                 Rolando 🍵
