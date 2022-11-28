@@ -36,13 +36,13 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Generate a Twitter thread about any topic</h1>
+            <h1>Generate a blog post/story about any topic</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              Write a quick sentence about what you want the tweet thread to be
-              about (ex. Apple stock, Ethereum vs Solana NFTs, how to start your
-              morning right, etc)
+              Write a prompt you want a blog post about (ex: Top 5 Cities in
+              Skyrim, How Sheldon Cooper makes matcha, a good morning routine,
+              etc)
             </h2>
           </div>
         </div>

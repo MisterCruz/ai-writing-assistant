@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = `Write me a Twitter thread in the style of Paul Graham. Please make sure the twitter thread goes in-depth on the topic and shows the writer did their research.
+const basePromptPrefix = `Write me a blog post. Please make sure the twitter thread goes in-depth on the topic and shows the writer did their research.
 Thread:
 `;
 const generateAction = async (req, res) => {
