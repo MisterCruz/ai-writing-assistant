@@ -78,6 +78,19 @@ const Home = () => {
             </div>
           )}
         </div>
+        <div className="header">
+          <div className="header-subtitle">
+            <h1>
+              Made by{" "}
+              <a
+                //href="https://github.com/MisterCruz"
+                style={{ color: "inherit" }}
+              >
+                Rolando 🍵
+              </a>
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );
