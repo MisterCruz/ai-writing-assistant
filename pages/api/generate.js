@@ -7,10 +7,9 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `Write me a blog post. Please make sure the blog post goes in-depth on the topic and shows the writer did their research.
-Thread:
+Blog post:
 `;
 const generateAction = async (req, res) => {
-  //run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
   const baseCompletion = await openai.createCompletion({
     model: "text-davinci-002",
