@@ -10,7 +10,7 @@ const basePromptPrefix = `Write me a blog post. Please make sure the blog post g
 Blog post:
 `;
 const generateAction = async (req, res) => {
-  //console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
+  console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
   const baseCompletion = await openai.createCompletion({
     model: "text-davinci-002",
     prompt: `${basePromptPrefix}${req.body.userInput}\n`,
